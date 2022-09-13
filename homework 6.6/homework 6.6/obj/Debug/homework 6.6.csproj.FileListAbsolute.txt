@@ -1,0 +1,8 @@
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\bin\Debug\homework 6.6.exe.config
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\bin\Debug\homework 6.6.exe
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\bin\Debug\homework 6.6.pdb
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\obj\Debug\homework 6.6.csproj.AssemblyReference.cache
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\obj\Debug\homework 6.6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\obj\Debug\homework 6.6.csproj.CoreCompileInputs.cache
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\obj\Debug\homework 6.6.exe
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\6. Файлы\homework 6.6\homework 6.6\homework 6.6\obj\Debug\homework 6.6.pdb
