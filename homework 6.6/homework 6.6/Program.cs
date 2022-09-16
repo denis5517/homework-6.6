@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace homework_6._6
 {
@@ -24,11 +25,11 @@ namespace homework_6._6
                 Console.WriteLine();
                 switch (consoleKeyInfo.KeyChar)
                 {
-                    case '1';
+                    case '1':
                         Print();
                         break;
 
-                    case '2';
+                    case '2':
                         Input();
                         break;
                 }
@@ -39,14 +40,14 @@ namespace homework_6._6
         {
             StringBuilder stringBuilder = new StringBuilder();
             int id = 1;
-            if (!file.Exists(file))
+            if (!File.Exists(file))
             {
-                file.Create(file).close();
+                File.Create(file).Close();
                 Console.WriteLine("Файл создан");
             }
             else
             {
-                id = file.ReadAllLines(file).Length + 1;
+                id = File.ReadAllLines(file).Length + 1;
             }
             Console.WriteLine($"{id}: Дата и время добавления записи: {DateTime.Now.ToString()}");
             stringBuilder.Append($"{id++}#");
@@ -70,19 +71,19 @@ namespace homework_6._6
         static void Print()
         {
             
-            if (!file.Exists(file))
+            if (!File.Exists(file))
             {
                 Console.WriteLine("Файл не существует");
                 return;
             }
-            using (StreamReader list2 = new StreamReadr(file, Encoding.Unicode))
+            using (StreamReader list2 = new StreamReader(file, Encoding.Unicode))
             {
                 string line;
-                Console.WriteLine($"{"id",5} {"Дата и время",5} {"Ф.И.О.",5} {"Возраст",5} {"Рост",5} {"Дата рождения",5} {"Место рождения",5}");
+                Console.WriteLine($"{"id",5} {"Дата и время",10} {"Ф.И.О.",10} {"Возраст",26} {"Рост",10} {"Дата рождения",18} {"Место рождения",20}");
                 while ((line = list2.ReadLine()) != null)
                 {
                     string[] daty = line.Split('#');
-                    Console.WriteLine($"{daty[0],5} {daty[1],5} {daty[2],5} {daty[3],5} {daty[4],5} {daty[5],5} {daty[6],5}");
+                    Console.WriteLine($"{daty[0],0} {daty[1],5} {daty[2],5} {daty[3],5} {daty[4],12} {daty[5],17} {daty[6],18}");
                 }
             }
         }   
